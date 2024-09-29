@@ -1,0 +1,65 @@
+# Ignore the WordPress core files
+/wp-admin/
+/wp-includes/
+
+# Ignore configuration files that may contain sensitive information
+wp-config.php
+
+# Ignore log files and error logs
+*.log
+debug.log
+
+# Ignore WordPress core auto-generated files
+sitemap.xml
+sitemap.xml.gz
+wp-config-sample.php
+xmlrpc.php
+
+# Ignore PHPStorm and VSCode project files
+.idea/
+.vscode/
+
+# Ignore operating system temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+
+# Ignore Node and Composer files (if you're using these)
+node_modules/
+vendor/
+
+# Ignore composer and npm lock files
+package-lock.json
+yarn.lock
+composer.lock
+
+# Ignore uploads and user content (optional, consider versioning uploads carefully)
+wp-content/uploads/
+
+# Ignore plugins and themes (optional, version control them if custom)
+/wp-content/plugins/
+/wp-content/themes/twentytwenty*/   # You can change this based on your theme
+
+# Ignore backups
+*.sql
+*.tar.gz
+*.zip
+
+# Ignore caching and optimization plugins' files (e.g., WP Super Cache, W3 Total Cache)
+wp-content/cache/
+wp-content/w3tc-config/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/uploads/cache/
+wp-content/uploads/sites/*/cache/
+wp-content/plugins/wp-super-cache/
+wp-content/plugins/w3-total-cache/
+
+# Ignore the upgrade folder
+/wp-content/upgrade/
+
+# Ignore any custom ignore rules
+!wp-content/plugins/custom-plugin/
+!wp-content/themes/custom-theme/
