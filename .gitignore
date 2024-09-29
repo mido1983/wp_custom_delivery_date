@@ -38,8 +38,8 @@ composer.lock
 # Ignore uploads and user content (optional, consider versioning uploads carefully)
 wp-content/uploads/
 
-# Ignore plugins and themes (optional, version control them if custom)
-/wp-content/plugins/
+# Ignore themes (optional, version control them if custom)
+
 /wp-content/themes/twentytwenty*/   # You can change this based on your theme
 
 # Ignore backups
